@@ -10,7 +10,7 @@ module.exports = {
     SESSION_SECRET: "phoenixgolfguys-secret",
     // Control debug level for modules using visionmedia/debug
     DEBUG: '',
-    STORMPATH_API_KEY_ID: '2C55HW79EYIML9M81170XWVH5',
-    STORMPATH_API_KEY_SECRET: 'uisWcymhursXHbAvRTb0kD3Jo5Nw3svTWCCtqCVrV0I',
+    STORMPATH_API_KEY_ID: '49QDVEJPPXFZA3MV25G7GV1K5',
+    STORMPATH_API_KEY_SECRET: 'h5Fzpk1iBQBzb1QfzfMY/fmViaLFoS1hNrxQ8PXFqMo',
     STORMPATH_APP_HREF: 'https://api.stormpath.com/v1/applications/5mhpDfmgS1rjbHdtL2COkl'
 };
