@@ -15,10 +15,17 @@ var activeRoundsSchema = new Schema(
         hcp: [],
         par: [],
         yds: [Number],
-        greenCenter: [{
-            latitude: Number,
-            longitude: Number
-        }]
+        hole: [
+            {
+                flag: [Number],
+                locs: [
+                    {
+                        name: String,
+                        loc: [Number]
+                    }
+                ]
+            }
+        ]
     },
     {
         collection: 'activeRounds'
